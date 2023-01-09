@@ -1,0 +1,22 @@
+#root {
+    color: #474e5d;
+}
+
+.elJalg {
+    display: none !important;
+}
+
+.gYhAyN {
+    padding: 2rem !important;
+}
+
+.css-ol4af0-MuiInputBase-root-MuiOutlinedInput-root input {
+    color: #fff !important;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.css-ol4af0-MuiInputBase-root-MuiOutlinedInput-root,
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline, 
+.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+    border-radius: 0 !important;
+}
