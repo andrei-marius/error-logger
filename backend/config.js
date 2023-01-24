@@ -17,6 +17,7 @@ const {
     EMAIL_SENDER,
     PASSWORD_SENDER,
     EMAIL_RECEIVER,
+    SLACK_WEBHOOK_URL,
 } = process.env;
 
 assert(PORT, 'PORT is required');
@@ -36,4 +37,5 @@ module.exports = {
     emailSender: EMAIL_SENDER,
     passwordSender: PASSWORD_SENDER,
     emailReceiver: EMAIL_RECEIVER,
+    slackWebhookUrl: SLACK_WEBHOOK_URL,
 };

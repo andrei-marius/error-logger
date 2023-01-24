@@ -5,7 +5,7 @@ const config = require('../config');
 const pool = require('../db');
 
 const sendMsgOnSlack = async (client, msg, stack) => {
-    await fetch('https://hooks.slack.com/services/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', {
+    await fetch(config.slackWebhookUrl, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
